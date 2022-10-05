@@ -358,3 +358,25 @@ from books
 group by author_lname;
 
 # L3 completed
+
+# L4 
+
+## Relationship
+- Types of relationship
+    - one to one
+    - one to many
+    - many to many
+
+  ### one to one
+  - Ex: country - capital city
+  - persion - their fingerprints
+  - email - user account
+
+  ### one to many
+  - Ex: country - city
+  - parent - child
+  - employee - manager
+
+  ### many to many
+
+  01:00:00
