@@ -377,6 +377,20 @@ group by author_lname;
   - parent - child
   - employee - manager
 
-  ### many to many
+    ## JOIN 
+  - INNER JOIN
+    - It will show all the records that have matching values in both tables
+    - Eg: `SELECT * from customers inner join orders on orders.customer_id = customers.id;`
 
-  01:00:00
+  - LEFT JOIN
+    - It will show all the records from left table and matched records from the right table. If there is no match for a specific record, you will NULL in the corresponding column of the right table.
+    - Eg: `SELECT * FROM orders LEFT JOIN customers ON customers.id = orders.customer_id;`
+
+  - RIGHT JOIN
+    - It show all records from the right table and the matching records from the left table. If there is no match for a specific record, you will NULL in the corresponding column of the left table.
+    - Eg: `SELECT * FROM  orders RIGHT JOIN customers ON customers.id = orders.customer_id;`
+
+
+    ### many to many
+
+    2:37
