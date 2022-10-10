@@ -389,8 +389,7 @@ group by author_lname;
   - RIGHT JOIN
     - It show all records from the right table and the matching records from the left table. If there is no match for a specific record, you will NULL in the corresponding column of the left table.
     - Eg: `SELECT * FROM  orders RIGHT JOIN customers ON customers.id = orders.customer_id;`
-
-
+    
     ### many to many
 
-    2:37
+    
